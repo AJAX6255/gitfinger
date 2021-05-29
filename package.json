@@ -1,0 +1,45 @@
+{
+  "name": "gitfinger",
+  "version": "1.0.0",
+  "description": "Simple Nodejs CLI for checking GitHub user profile and repos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajax6255/gitfinger"
+  },
+  "author": {
+    "name": "Allan Jackson",
+    "email": "allan.jackson6255@gmail.com",
+    "url": "https://github.com/ajax6255"
+  },
+  "engine": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gitfinger": "./index.js"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "gitfinger",
+    "command",
+    "line",
+    "tool",
+    "repos",
+    "repositories",
+    "user",
+    "profile",
+    "info",
+    "information"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cli-table": "^0.3.6",
+    "ora": "^5.4.0",
+    "request": "^2.88.2",
+    "yargs": "^4.8.1"
+  }
+}
